@@ -39,7 +39,10 @@ public class StudentListAdapter extends ArrayAdapter{
 
         //TODO add the other sections of the custom student row
         ImageView studentImage = (ImageView) studentRowView.findViewById(R.id.studentImage);
+//        studentImage.setImageResource(R.drawable.silhouette);
+
         ImageView handUp = (ImageView) studentRowView.findViewById(R.id.handUp);
+//        handUp.setImageResource(R.drawable.bordertemplate);
 
 
 

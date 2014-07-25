@@ -19,11 +19,17 @@ public class MainActivity extends ActionBarActivity {
         setContentView(R.layout.activity_main);
 
 
-        Student student1 = new Student(11, "Andy");
-        Student student2 = new Student(22, "Barry");
-        Student student3 = new Student(33, "Chris");
-        Student student4 = new Student(44, "Dave");
-        Student[] students = {student1, student2, student3, student4};
+        Student student1 = new Student(11, "Andy Ant");
+        Student student2 = new Student(22, "Barry Bear");
+        Student student3 = new Student(33, "Chris Cat");
+        Student student4 = new Student(44, "Dave Dolphin");
+        Student student5 = new Student(55, "Ed Eagle");
+        Student student6 = new Student(66, "Fred Fox");
+        Student student7 = new Student(77, "Gary Gorilla");
+        Student student8 = new Student(88, "Harry Hermit Crab");
+
+        Student[] students = {student1, student2, student3, student4,
+                student5, student6, student7, student8, };
 
         final ListAdapter studentListAdapter = new StudentListAdapter(this, students);
 
