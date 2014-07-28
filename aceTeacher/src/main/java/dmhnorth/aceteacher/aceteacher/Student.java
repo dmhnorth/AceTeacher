@@ -26,7 +26,7 @@ public class Student {
         setStudentId(studentId);
         setStudentName(studentName);
 
-        setTextSent("I haven't asked anything.");
+        setTextSent("Currently silent.");
 
         handUp = false;
     }
