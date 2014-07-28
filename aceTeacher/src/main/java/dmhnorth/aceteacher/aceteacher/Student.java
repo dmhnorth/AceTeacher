@@ -3,10 +3,14 @@ package dmhnorth.aceteacher.aceteacher;
 import android.net.rtp.AudioStream;
 import android.widget.VideoView;
 
+import java.io.Serializable;
+
 /**
  * Created by Dave on 24/07/2014.
+ *
+ * Must implement Serializable for passing details between activities.
  */
-public class Student {
+public class Student implements Serializable{
 
     //Find out what to class implement and understand for these streams
     private VideoView videoView;
